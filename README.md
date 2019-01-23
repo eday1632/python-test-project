@@ -1,9 +1,21 @@
-Ensure that you have Python 3 installed and that your PIP installation points to it.
+Nearly empty Python3 project with a failing test!
+===
 
-Installation:
+**Ensure that you have Python 3 installed and that your PIP installation points to it**
 
-`pip install -r requirements.txt`
+To install the required modules:
 
-Run Test:
+```
+$ pip install -r requirements.txt
+```
+or
+```
+$ pip3 install -r requirements.txt
+```
 
-`py.test`
+
+To run the (failing) test:
+
+```
+$ py.test
+```
